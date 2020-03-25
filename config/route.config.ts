@@ -1,13 +1,13 @@
 // umi routes: https://umijs.org/zh/guide/router.html
 export default [
   {
-    path: '/user',
+    path: '/login',
     component: '../layouts/UserLayout',
     routes: [
       {
         name: 'login',
-        path: '/user/login',
-        component: './user/login',
+        path: '/login',
+        component: './login',
       },
     ],
   },
